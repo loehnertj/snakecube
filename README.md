@@ -3,6 +3,9 @@
 Löst das Schlangenwürfel-Puzzle (Snake Cube) – ein hölzernes Geduldsspiel, bei dem eine
 Kette von kleinen Würfelchen zu einem n×n×n-Würfel gefaltet werden muss.
 
+![Grafische Anzeige](screenshot.png)
+![Terminalausgabe](screenshot_terminal.png)
+
 ## Das Puzzle
 
 Der Schlangenwürfel besteht aus einer Kette von Einheitswürfeln, die durch elastische
