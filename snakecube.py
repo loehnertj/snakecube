@@ -278,6 +278,7 @@ def solve_recurse(
             continue
         elif not new_solution.remaining_segments:
             # Got it!
+            report(new_solution, new_solution)
             return new_solution
         else:
             # Search next
@@ -299,7 +300,6 @@ def solve_recurse(
             if len(subsolution) > len(longest_overall):
                 longest_overall = subsolution
             if subsolution.is_solved:
-                report(subsolution, longest_overall)
                 return subsolution
     return longest_solution_here
 
@@ -390,6 +390,7 @@ class InteractiveSolver:
             first_draw = (not self.boxes)
             for box in self.boxes:
                 plotter.remove_actor(box)
+            plotter.set_color_cycler("default")
             self.boxes = self.plot_solution(solution)
             self.show_step(len(self.cube.segments), force=True)
             if self._finished.is_set():
