@@ -3,6 +3,8 @@
 Löst das Schlangenwürfel-Puzzle (Snake Cube) – ein hölzernes Geduldsspiel, bei dem eine
 Kette von kleinen Würfelchen zu einem n×n×n-Würfel gefaltet werden muss.
 
+**Wenn gerade einfach nur die Lösung suchst**: Siehe unten.
+
 ![Grafische Anzeige](screenshot.png)
 ![Terminalausgabe](screenshot_terminal.png)
 
@@ -15,6 +17,23 @@ ist es, die Kette so zu falten, dass ein kompakter Quader (meist 3×3×3 oder 4�
 Die Konfiguration eines Würfels wird als Folge von Zahlen angegeben. Jede Ziffer beschreibt
 die Länge eines geraden Abschnitts (Anzahl Würfelchen bis zum nächsten Knick). Beispiel für
 einen 3×3×3-Würfel: `31121211221112222`
+
+## Die Lösung
+
+Falls Du nichts installieren, sondern nur deinen 4x4x4-Würfel lösen willst, versuche es mit folgender Anleitung. Vielleicht sieht dein Snakecube ja genauso aus.
+
+Der erste Schritt (blauer Quader) ist nur ein 2er, auch wenn er hier länger aussieht.
+
+![Schritte 1-10](4x4x4_1.png)
+
+![Schritte 11-20](4x4x4_2.png)
+
+![Schritte 20-31](4x4x4_3.png)
+
+![Schritte 32-37](4x4x4_4.png)
+
+![Schritte 38-46](4x4x4_5.png)
+
 
 ## Algorithmus
 
